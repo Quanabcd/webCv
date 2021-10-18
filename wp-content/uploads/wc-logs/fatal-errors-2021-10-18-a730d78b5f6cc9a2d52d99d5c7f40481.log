@@ -1,0 +1,12 @@
+2021-10-18T06:18:23+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\xampp\htdocs\webcv\wp-content\themes\flatsome-child\woocommerce\loop\sale-flash.php:24
+Stack trace:
+#0 C:\xampp\htdocs\webcv\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include()
+#1 C:\xampp\htdocs\webcv\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1301): wc_get_template('loop/sale-flash...')
+#2 C:\xampp\htdocs\webcv\wp-includes\class-wp-hook.php(288): woocommerce_show_product_loop_sale_flash('')
+#3 C:\xampp\htdocs\webcv\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\webcv\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\webcv\wp-content\themes\flatsome-child\functions.php(405): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\webcv\wp-includes\shortcodes.php(325): get_product_by_cate1('', '', 'productsbycate1')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 C:\xampp\htdocs\webcv\wp-includes\shortcodes.php(199): preg_replace_ in C:\xampp\htdocs\webcv\wp-content\themes\flatsome-child\woocommerce\loop\sale-flash.php on line 24
+

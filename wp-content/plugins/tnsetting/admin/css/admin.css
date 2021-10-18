@@ -1,0 +1,58 @@
+body.login {    background: #F15921;}
+body.login  h1 a{background: url("https://www.tamnghia.com/logo.png") center center no-repeat;
+    width: auto;background-size: contain;}
+body.wp-core-ui .button-primary{background: #ff6600;border: #fff}
+.login #nav{
+    margin-top: -45px;
+
+}
+.login form {
+    padding: 26px 24px 65px;
+}
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.login #nav a{ color: #00f;}
+#backtoblog {
+    margin: 0px 0;
+}
+.tnsetting-frm{
+
+    display:block;
+    clear:both;width:100%;
+}
+a.selected{font-weight: bold;}
+.tnsetting-frm .form-group{
+    clear: both;
+    padding-bottom: 10px;
+    float:left;width: 100%;
+}
+.btnsave{background: #fd6d4a;
+    color: #fff;
+    padding: 8px 20px;
+    border: 0px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-shadow: 0px 1px 1px #000;
+    box-shadow: 1px 1px 1px #848484;}
+.btnsave:hover{cursor: pointer}
+#tnsetting-upload-image{background: #00aadc;color: #fff;padding: 5px 10px;margin-left: 10px;text-decoration: none}
+.tnsetting-frm  input[type=text]{width: 500px}
+.tnsetting-frm  .form-group .control-label{
+    text-align: right;
+    min-width: 130px;
+    display: block;
+    float:left;
+    margin-right: 10px;
+}
+
+.tnsetting-frm  .form-group .input-group{
+    display: block;
+    float: left;
+    width: 57%;
+}
